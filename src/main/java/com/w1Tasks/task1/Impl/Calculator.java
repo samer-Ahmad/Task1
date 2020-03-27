@@ -14,7 +14,12 @@ public class Calculator implements addition, division, multiplication, subtracti
     }
 
     public double divide(double n1, double n2) {
+        if (n2 == 0) {
+            throw new ArithmeticException("Can not divide by zero ");
+        }
+
         return n1 / n2;
+
     }
 
     public double multiply(double n1, double n2) {

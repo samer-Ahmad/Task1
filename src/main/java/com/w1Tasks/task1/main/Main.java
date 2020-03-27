@@ -11,8 +11,8 @@ public class Main {
 
         Calculator calculator = ac.getBean(Calculator.class);
         System.out.println(calculator.add(1, 2));
-        System.out.println(calculator.divide(6, 2));
-        System.out.println(calculator.multiply(2, 3));
-        System.out.println(calculator.subtract(3, 2));
+        System.out.println(calculator.divide(6, 1));
+        System.out.println(calculator.multiply(2, 0));
+        System.out.println(calculator.subtract(2, 3));
     }
 }
